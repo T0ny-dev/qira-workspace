@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+		
+}
+
+body {
+    display: flex;
+		align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url("../asset/img/background\ login.svg");
+		background-size: cover;
+		background-position: center;
+		font-family:'Open Sans', sans-serif; ;
+
+}
+
+.login {
+	width: 340px;
+	height: 80vh;
+	background-color:#fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding: 25px;
+	border-radius: 15px;
+	border: 1px solid #000;
+}
+
+.login--centre {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.logo__login {
+	width: 115px;
+
+}
+
+h4 {
+	text-align: center;
+}
+
+.btn {
+background-color: #000;
+border: none;
+}
+
+.btn:hover {
+	background-color:#2B2425;
+}
